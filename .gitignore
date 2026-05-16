@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
+
+# CatBoost logs
+catboost_info/
+
+# Experiments
+test/
+
+# Notebook
+main.ipynb
+
+# Generated predictions
+submission.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyTorch checkpoints
+*.pth
+*.pt
