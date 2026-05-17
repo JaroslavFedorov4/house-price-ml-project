@@ -1,4 +1,4 @@
-from sklearn.linear_model import Lasso, Ridge, ElasticNet
+from sklearn.linear_model import Lasso, Ridge, ElasticNet, LinearRegression
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.tree import DecisionTreeRegressor
@@ -30,6 +30,7 @@ LEARNING_RATE = 0.001
 WEIGHT_DECAY = 0.0001
 
 models = {
+    "BaseLineModelLinearRegression": LinearRegression(),
     "Lasso": Lasso(),
     "Ridge": Ridge(),
     "ElasticNet": ElasticNet(),
@@ -42,6 +43,7 @@ models = {
 }
 
 param_grids = {
+    "BaseLineModelLinearRegression": {},
     "Lasso": {
         'model__alpha': [0.0001, 0.0005, 0.001, 0.005]
     },

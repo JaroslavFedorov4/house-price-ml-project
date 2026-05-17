@@ -21,6 +21,8 @@ ensemble learning, boosting models, and a PyTorch neural network.
 
 ![alt text](image.png)
 
+- Base model - LinearRegression (best_score - 0.183300)
+
 ## Structure of project
 
 - data - this folder contains house data and a file with the final prediction.
