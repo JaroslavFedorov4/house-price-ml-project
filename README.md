@@ -19,7 +19,7 @@ ensemble learning, boosting models, and a PyTorch neural network.
 
 ## Leaderboard
 
-![alt text](image.png)
+![alt text](image1.png)
 
 - Base model - LinearRegression (best_score - 0.183300)
 
